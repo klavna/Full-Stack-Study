@@ -126,3 +126,6 @@ RGB 색상 모델은 빨강, 초록, 파랑을 통해 특정 색을 표현합니
     줄 간격을 설정합니다.
 - `letter-spacing`
        글자 사이의 간격
+       
+       
+출처:[짐코딩 HTML&CSS](https://gymcoding.notion.site/HTML-CSS-706749085a29449bb066957e56686365)
