@@ -176,7 +176,7 @@ console.log(fruits[2]);  // "포도"
     // 바나나 1
     // 딸기 2
     ```
-- `**push` - 배열 끝에 항목 추가하기**
+- **`push` - 배열 끝에 항목 추가하기**
     ```jsx
     const fruits = ['사과', '바나나', '딸기'];
     fruits.push('포도');
@@ -184,19 +184,19 @@ console.log(fruits[2]);  // "포도"
     console.log('fruits: ', fruits);
     // ['사과', '바나나', '딸기', '포도', '오렌지']
     ```
-- `**pop` - 배열 끝에 항목 제거하기**    
+- **`pop` - 배열 끝에 항목 제거하기**    
     ```jsx
     const fruits = ['사과', '바나나', '딸기'];
     fruits.pop();
     console.log('fruits: ', fruits);   // ['사과', '바나나']
     ```   
-- `**shift` - 배열 앞에 항목 제거하기**    
+- **`shift` - 배열 앞에 항목 제거하기**    
     ```jsx
     const fruits = ['사과', '바나나', '딸기'];
     fruits.shift();
     console.log('fruits: ', fruits);   // ['바나나', '딸기']
     ```   
-- `**unshift` - 배열 앞에 항목 추가하기**
+- **`unshift` - 배열 앞에 항목 추가하기**
     ```jsx
     const fruits = ['사과', '바나나', '딸기'];
     fruits.unshift('포도');
