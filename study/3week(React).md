@@ -25,12 +25,11 @@ function Header(){
 ```
 
 ## PROP
-
+속성과 비슷한 역활을 하여 각 컴포넌트들에 특정 값을 줄 수 있다.<br>
 예시
 
 ```jsx
 function Header(props) {
-  console.log(props);
   return (
     <header>
       <h1>
@@ -41,3 +40,42 @@ function Header(props) {
   
   <Header title = "React"></Header>
   ```
+  
+  ## 이벤트
+  
+  예시
+  ```jsx
+  function Header(props) {
+  return (
+    <header>
+      <h1>
+        <a href="/" onClick={(event)=>{
+          event.preventDefault();
+          props.onChangeMode();
+        }}>{props.title}</a>
+      </h1>
+    </header>
+  );
+  
+  <Header title="React" onChangeMode={()=>{
+        alert('Header');
+      }}></Header>
+```
+
+## state
+`import {useState} from 'react';`를 이용하여 사용한다.
+컴포넌트 내부에서 사용하는 값이다
+
+![image](https://user-images.githubusercontent.com/100742454/201532093-5d675db4-7977-4c6c-b44e-a0270f77efd4.png)
+선언
+```jsx
+const [mode, setMode] = useState('welcome')
+```
+use stated의 첫번째 인자는 초기값이고 배열을 리턴한다.
+0번째 인덱스는 값을 1번째 인덱스는 값을 변경하는 함수를 준다.
+
+## create
+
+
+
+  
