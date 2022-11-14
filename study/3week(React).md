@@ -42,7 +42,7 @@ function Header(props) {
   ```
   
   ## 이벤트
-  
+  사용자와 상호작용을 말한다.
   예시
   ```jsx
   function Header(props) {
@@ -63,8 +63,9 @@ function Header(props) {
 ```
 
 ## state
-`import {useState} from 'react';`를 이용하여 사용한다.
 컴포넌트 내부에서 사용하는 값이다
+`import {useState} from 'react';`를 이용하여 사용한다.
+
 
 ![image](https://user-images.githubusercontent.com/100742454/201532093-5d675db4-7977-4c6c-b44e-a0270f77efd4.png)
 선언
@@ -74,8 +75,6 @@ const [mode, setMode] = useState('welcome')
 use stated의 첫번째 인자는 초기값이고 배열을 리턴한다.
 0번째 인덱스는 값을 1번째 인덱스는 값을 변경하는 함수를 준다.
 
-## create
 
-
-
+출처:[생활코딩](https://www.youtube.com/c/%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A91)
   
